@@ -42,7 +42,8 @@ class Timeclass {
 
 
 
-// In the above code, we have created a class Timeclass with three methods time(), date(), and datetime(). These methods are used to get the current time, date, and date-time respectively.
+// In the above code, we have created a class Timeclass with three methods time(), date(), and datetime(). 
+// These methods are used to get the current time, date, and date-time respectively.
 // To get the current system's timezone, we have used the LocalTime, LocalDate, and LocalDateTime classes of the java.time package.
 // To get the current time in a specific timezone, we can use the ZonedDateTime class of the java.time package.import java.util.Scanner;import java.util.Scanner;
 // To get the current timezone use ZoneId.systemDefault() method.
