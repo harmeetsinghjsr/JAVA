@@ -1,29 +1,29 @@
 import java.util.*;
+
 class Author{
-    int FullName;
+    String FullName;
     public void getInput()
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Author's Full Name: ");
-        FullName = sc.nextInt();
-    
+        this.FullName = sc.nextLine();
     }
     public void display()
     {
         System.out.println("Author's Full Name: " + FullName);
-    
     }
 }
 class Book extends Author{
-    int BookName;
+    String BookName;
     public void getInput()
     {
+        super.getInput();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Book Name: ");
-        BookName = sc.nextInt();
-    
+        this.BookName = sc.nextLine();
     }
-    public void display2(){
+    public void display(){
+        super.display();
         System.out.println("Book Name: " + BookName);
     }
 }
@@ -32,6 +32,5 @@ public class BookAuthor {
         Book obj = new Book();
         obj.getInput();
         obj.display();
-        obj.display2();
     }
 }
