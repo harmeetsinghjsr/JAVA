@@ -6,6 +6,7 @@
 //below 60: F gpa:(0.0)
 //input from user
 import java.util.*;
+
 public class grades {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

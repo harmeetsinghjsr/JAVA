@@ -1,3 +1,5 @@
+import packageName.Parent;
+
 // Java program to demonstrate working of instanceof Keyword
 
 // Class 1

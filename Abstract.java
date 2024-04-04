@@ -1,6 +1,6 @@
 import java.util.*;
 abstract class A{
-    public void A()
+    public A()
     {
         System.out.println("This is a constructor of abstract class A");
     }

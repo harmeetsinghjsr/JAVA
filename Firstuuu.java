@@ -1,6 +1,6 @@
 import java.util.Scanner;
+import java.util.*; // Add missing import statement for java.util.*
 
-import java.util.*;
 class Firstuuu
 {
     public static void main(String[] b)

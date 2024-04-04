@@ -1,4 +1,5 @@
 import java.util.*;
+
 interface Woods{
     void thick(int len1);
     void thin(int len2);
