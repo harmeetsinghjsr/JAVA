@@ -4,9 +4,9 @@ public class Exception8 {
         try {
             FileOutputStream f=new FileOutputStream("abcd.txt");
             String content="Hello World";
-            // f.write(content.getBytes());
-            byte arr[]=content.getBytes();
-            f.write(arr);
+            f.write(content.getBytes());
+            // byte arr[]=content.getBytes();
+            // f.write(arr);
             f.close();
             System.out.println("File Written Successfully");
             FileInputStream file=new FileInputStream("abcd.txt");
