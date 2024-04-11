@@ -9,15 +9,17 @@ public class Exception6 {
             f.close();
         } catch (IOException e) {
             e.printStackTrace();
+        }
 
-
+        try {
+            FileReader reader=new FileReader("abcd.txt");
+            int ch=0;
+            while((ch=reader.read())!=-1) {
+                System.out.print((char)ch);
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-    FileReader reader=new FileReader("abcd.txt");
-    int ch=0;
-    while((ch=reader.read())!=-1) {
-        System.out.print((char)ch);
-    }
-    reader.close();
-    }
-    
 }
