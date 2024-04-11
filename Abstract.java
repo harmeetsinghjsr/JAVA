@@ -1,4 +1,5 @@
 import java.util.*;
+import java.io.*;
 abstract class A{
     public A()
     {
@@ -81,6 +82,5 @@ public class Abstract {
         obj1.ciao();
         obj1.Hello();
         obj1.RamRam();
-    }
-    
+    }  
 }
