@@ -15,7 +15,9 @@ public class Exception8 {
                 System.out.print((char)ch);
                 ch=file.read();
             }
-        }catch(Exception e) {
+        } catch(FileNotFoundException e) {
+            System.out.println("File not found.");
+        } catch(Exception e) {
             e.printStackTrace();
         }
     }
