@@ -1,6 +1,5 @@
-
 import java.util.*;
-
+import java.util.Scanner;
 class over
 {
 void series()
@@ -12,7 +11,6 @@ for(i=1;i<=19;i+=2)
 System.out.print(i+" ");
 }
 }
-
 void series(int n)
 {
 int i,a=1;
