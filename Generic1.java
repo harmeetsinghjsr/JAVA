@@ -4,15 +4,14 @@ class MyData<T> {
     T a;
     void add(T a1) {
         a = a1;
-
     }
-    void display(int a) {
-        T a=a;
+    void display(T x) {
+        a = x;
         System.out.println(a);
     }
     
 }
-public class Genric {
+public class Generic1 {
 
     public static void main(String[] args) {
         MyData<Integer> obj = new MyData<>();
