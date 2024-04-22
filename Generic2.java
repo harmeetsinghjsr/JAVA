@@ -20,5 +20,4 @@ public class Generic2 {
         System.out.println(obj.getValues());
         obj.NewData("Hello");
     }
-
 }
