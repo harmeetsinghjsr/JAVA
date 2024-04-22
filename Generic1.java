@@ -11,6 +11,7 @@ class MyData<T> {
     }
     
 }
+
 public class Generic1 {
 
     public static void main(String[] args) {
