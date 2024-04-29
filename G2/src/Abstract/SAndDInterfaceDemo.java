@@ -1,4 +1,4 @@
-package Abstract;
+// package Abstract;
 
 interface Animal{
     void sound();

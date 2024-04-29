@@ -1,6 +1,7 @@
-package Abstract;
+// package Abstract;  
 
-abstract class Shape{
+abstract class Shape {
+    
     protected String color;
 
     public Shape(String color){
@@ -24,7 +25,7 @@ class Circle extends Shape{
 
     @Override
     double calculateArea(){
-        return 3.14 * radius * radius;
+        return Math.PI * radius * radius;
     }
 }
 
@@ -42,8 +43,8 @@ class Square extends Shape{
     }
 }
 
-public class AbstarctClassAndMethodsDemo {
-    public static void main(String a[]) {
+public class AbstractClassAndMethodsDemo {
+    public static void main(String args[]) {
         Circle circle = new Circle("Red",2);
         Square square = new Square("Orange",4);
 
