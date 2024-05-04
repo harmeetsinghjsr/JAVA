@@ -6,7 +6,6 @@ public class LambdaExample {
                 System.out.println(i);
             }
         };
-
         // Running the lambda function
         printNumbers.run();
     }
