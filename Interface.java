@@ -34,6 +34,5 @@ class Interface{
         System.out.println(obj.a);
         obj.hard();
         obj.soft();
-
     }
 }
