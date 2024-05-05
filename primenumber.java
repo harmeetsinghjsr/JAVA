@@ -15,7 +15,7 @@ public class primenumber {
     }
     
     public static void main(String[] args) {
-        // Add your code here to test the isPrime function
+        
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(isPrime(n));
