@@ -8,9 +8,11 @@ public class FibonacciRecursion {
     }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the number to find fibonacci: ");
-        int n = in.nextInt();
-        System.out.println("Fibonacci of " + n + " is: " + fibonacci(n));
-        in.close();
+        System.out.println("Enter the number of terms: ");
+        int terms = in.nextInt();
+        System.out.println("Fibonacci series till " + terms + " terms:");
+        for (int i = 0; i < terms; i++) {
+            System.out.print(fibonacci(i) + " ");
+        }
     }
 }
