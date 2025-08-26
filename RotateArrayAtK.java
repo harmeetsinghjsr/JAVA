@@ -10,7 +10,7 @@ public class RotateArrayAtK {
             nums[i-k]=nums[i];
         }
         for(int i=n-k;i<n;i++){
-            nums[i]=temp[i-k];
+            nums[i]=temp[i-(n-k)];
         }
     }
     public static void main(String[] args) {
