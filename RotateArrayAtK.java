@@ -1,7 +1,7 @@
 public class RotateArrayAtK {
     public void rotateArrayAtK(int[] nums, int k) {
         int n = nums.length;
-        k=k%n;
+        k=k%n+1;
         int temp[]=new int[n];
         for(int i=0; i < k; i++) {
             temp[i]=nums[i];
@@ -15,8 +15,8 @@ public class RotateArrayAtK {
     }
     public static void main(String[] args) {
         RotateArrayAtK rotate = new RotateArrayAtK();
-        int[] nums = {10,8,2,5,11,13};
-        int k = 4;
+        int[] nums = {1,2,3,4,5,6,7};
+        int k = 3;
         rotate.rotateArrayAtK(nums, k);
         for(int i=0; i<nums.length; i++) {
             System.out.print(nums[i] + " ");
