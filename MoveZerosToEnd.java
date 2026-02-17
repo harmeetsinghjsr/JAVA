@@ -13,7 +13,7 @@ public class MoveZerosToEnd {
     }
     public static void main(String[] args) {
         MoveZerosToEnd mover = new MoveZerosToEnd();
-        int[] nums = {0, 1, 0, 3, 12};
+        int[] nums = {0, 20, 0, -20, 0, 20};
         mover.moveZeroes(nums);
         for (int num : nums) {
             System.out.print(num + " ");
