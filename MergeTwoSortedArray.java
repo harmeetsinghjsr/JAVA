@@ -43,7 +43,10 @@ public class MergeTwoSortedArray {
 
         // Shrink to exact size k
         int[] mergedArr = new int[k];
-        System.arraycopy(temp, 0, mergedArr, 0, k);
+        for(int index=0;index<k;index++){
+            mergedArr[index]=temp[index];
+        }
+
         return mergedArr;
     }
     public static void main(String[] args) {
