@@ -1,4 +1,3 @@
-
 public class SecondLargest {
     int secondLargestElement(int nums[])
     {
@@ -18,7 +17,7 @@ public class SecondLargest {
         }
         return second;
     }
-    
+
     // public int secondLargestElement(int[] nums) {
     //     Arrays.sort(nums);
     //     int second=-1;

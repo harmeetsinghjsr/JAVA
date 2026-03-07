@@ -4,4 +4,4 @@ public class welcome {
     {
         System.out.println("Welcome");
     }
-}
+}             
