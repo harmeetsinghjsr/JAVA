@@ -65,7 +65,6 @@ public class Student {
         }
         else{
             System.out.println("Grade F");
-        }
-        
+        }    
     }
 }
