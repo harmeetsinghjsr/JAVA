@@ -1,0 +1,7 @@
+Notes for Final Project:
+1. Jira --> each team create a separate board --> add members + trainer 
+2. Choose a project --> check if link works manually 
+3. Create a GitHub repo master by lead --> add the structure for POM, Extent report, screenshot, add dependencies --> add to repo(master)
+4. Clone the repo by team members 
+5. POM --> Work on separate pages so as to avoid merge conflicts 
+6. Implement --> Selenium, testng, datadriven, parallelexecution, apachePOI, XML, POM, Extent report, screenshot, BDD cucumber.
